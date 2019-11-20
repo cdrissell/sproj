@@ -1,2 +1,3 @@
-# sproj
-My senior project for Bard
+# Senior Project
+
+This is Cullen's sproj!
