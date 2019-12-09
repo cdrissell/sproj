@@ -102,7 +102,7 @@ net = cv2.dnn.readNet(args["east"])
 # if a video path was not supplied, grab the reference to the web cam
 if not args.get("video", False):
 	print("[INFO] starting video stream...")
-	vs = VideoStream(src=0).start()
+	vs = VideoStream(src=1).start()
 	time.sleep(1.0)
 
 # otherwise, grab a reference to the video file

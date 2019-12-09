@@ -129,5 +129,5 @@ for (startX, startY, endX, endY) in boxes:
 	cv2.rectangle(orig, (startX, startY), (endX, endY), (0, 255, 0), 2)
 
 # show the output image
-cv2.imshow("Text Detection", orig)
+cv2.imshow("Text Detection", cv2.resize(orig, (1000, 600)))
 cv2.waitKey(0)
